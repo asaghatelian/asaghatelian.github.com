@@ -72,7 +72,7 @@
     document.querySelector("#btn").addEventListener("click", function () {
       var d1 = new Date();
 
-      var options = {excludeAdBlock: true}
+      var options = {excludeAdBlock: true, excludeWebGL:true}
 
       var fp = new Fingerprint2(options);
       fp.get(function(result, components) {
