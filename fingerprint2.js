@@ -36,6 +36,7 @@
       detectScreenOrientation: true,
       sortPluginsFor: [/palemoon/i],
       userDefinedFonts: [],
+      excludeAdBlock:false,
       excludeDoNotTrack: true
     }
     this.options = this.extend(options, defaultOptions)
